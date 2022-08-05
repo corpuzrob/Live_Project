@@ -5,10 +5,7 @@ I collaborated on a bootcamp live project to create a new website for Utility Co
 
 Here is the code I was responsible for:
 
-* [Canyon Hikers](https://github.com/corpuzrob/UX_UI_Design/tree/main/Canyon_Hikers)
-* [Second Breath Finds](https://github.com/corpuzrob/UX_UI_Design/blob/main/Fluid%20Website/Fluid_Website.html)
-* [RuthMORE Consulting](https://github.com/corpuzrob/UX_UI_Design/tree/main/Responsive%20Website)
-* [Kitten Zen](https://github.com/corpuzrob/UX_UI_Design/tree/main/Kitten_Zen)
+* [Utility Construction](https://github.com/corpuzrob/Live_Project/tree/trunk/Utility_Construction)
 
 ### Canyon Hikers
 
