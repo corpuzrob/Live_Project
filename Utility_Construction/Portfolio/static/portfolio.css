@@ -1,0 +1,342 @@
+/*========================
+   FONT
+========================*/
+
+* {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    color: #263f44;
+}
+
+/*========================
+   BUTTONS
+========================*/
+
+.btn{
+    font-family: europa, sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    font-style: normal;  
+    line-height: 1;  
+    background-color: #f9bd37;
+    color: #015668;
+    border: none;
+    display: block;
+    height: 5em;
+    width: 5em;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 1.35em;
+    position: fixed;
+    right: 24px!important;
+    bottom: 24px!important;
+    z-index: 2;
+}
+
+.btn:hover{
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;  
+    background-color: #015668;
+    color: #f9bd37!important;
+    border: none;
+    outline: none;
+}
+
+/*========================
+   NAVBAR ALT
+========================*/
+
+.RC_navbar_logo {
+    margin: 12px;
+    padding: 12px 0 0 0;
+    position: relative;
+}
+
+.RC_navbar_logo_desktop {
+    margin-top: 2em;
+}
+
+.RC_navbar_logo_mobile {
+    padding-top: 0px;
+}
+
+.navbar {
+    background-color: white !important;
+    height: 64px;
+}
+
+.nav, .navbar, .nav-item {
+    color: #015668!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0px!important;
+    padding-top: 0px!important;
+}
+
+.nav:hover, .navbar:hover, .nav-item:hover, .nav-link:hover, .navbar-nav:hover {
+    color: #f9bd37!important;
+    /* color: red!important;
+    background-color: red!important; */
+}
+
+.navbar-toggler-icon, .navbar-toggler {
+    background-color: white!important;
+    color: #f9bd37!important;
+    margin: 0;
+    padding: 0;
+    border-color: white!important;
+}
+
+.RC_triangle_navbar {
+    width: 0;
+    height: 0;
+    border-top: 100vw solid white;
+    border-right: 56.25vh solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: -2;
+}
+
+/* #navbarCollapse {
+    z-index: -1;
+} */
+
+/*========================
+   BANNER
+========================*/
+
+
+h1, h2  {
+    font-family: 'Syncopate', sans-serif;
+    margin-top: 1em;
+    position: relative;
+    z-index: 2;
+    color: #015668;
+}
+
+.RC_banner {
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    border: none!important;
+    border-radius: none!important;
+}
+
+.RC_banner img {
+    height: 100vh;
+    object-fit: cover;
+    border: none!important;
+    border-radius: none!important;
+    /* -webkit-clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+    clip-path: polygon(100% 100%, 0% 100%, 100% 0); */
+}
+
+.RC_triangle {
+    width: 0;
+    height: 0;
+    border-top: 50rem solid white;
+    border-right: 50rem solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.RC_triangle_bottom_right{
+    width: 0px;
+    height:0px;
+    border-bottom: 275px solid white;
+    border-left: 275px solid transparent;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.5;
+    /* color: white; */
+    position: fixed;
+    z-index: 1;
+    right: 0px!important;
+    bottom: 0px!important;
+}
+
+/* Remove slight rounded corners on banner image */
+.card {
+    border-radius: 0;
+}
+
+/*====================
+    IMAGES
+====================*/
+
+.RC_square {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    /* object-fit: cover; */
+}
+
+.RC_thumbnail {
+    /* float: left; */
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.RC_triangle_thumbnail {
+    width: 0;
+    height: 0;
+    border-top: 20rem solid white;
+    border-right: 20rem solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.65;
+    z-index: 3;
+}
+
+.RC_overlay_thumbnail:hover {
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.RC_header_thumbnail {
+    font-family: 'Syncopate', sans-serif;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    z-index: 4;  
+}
+
+.RC_text_thumbnail {
+    position: absolute;
+    font-weight: regular;
+    line-height: 0.85em;
+    top: 3em;
+    left: 2em;
+    z-index: 4;  
+}
+
+
+/*====================
+    FOOTER
+====================*/
+
+
+footer {
+    width: 100%;
+    height: 72px;
+    background-color: #0E4456;
+    margin: 0 0 0 0;
+    color: #ffd369; 
+    position: relative;
+    bottom: 0;
+    display: flex!important; 
+    align-items: center!important; 
+    /* display: table-cell;
+    vertical-align: middle; */
+    padding-top: 1.5em;
+    font-size: 1em;
+}
+
+footer p {
+    color: #ffd369; 
+    position: absolute;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
+    margin-right: 0;
+    /* padding-top: 2em; */
+}
+
+.RC_social_media_logos {
+    /* text-align: center; */
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 2em; */
+    height: 1rem;
+}
+
+/* .RC_footer_mobile {
+    font-size: 0.5em;
+} */
+
+/*====================
+    MOBILE STYLING
+====================*/
+
+@media (max-width: 800px) {
+    .RC_banner {
+         height: 100vh;
+         width: auto;
+         overflow: hidden;
+    }
+ 
+    .RC_banner img {
+         height: 100vh;
+         object-fit: cover;
+    }
+
+    .RC_triangle {
+        width: 0;
+        height: 0;
+        border-top: 20rem solid white;
+        border-right: 100vw solid transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+    }
+
+    h2  {
+        left: 0;
+        font-family: 'Syncopate', sans-serif;
+        margin-top: 0.5em;
+        position: relative;
+        z-index: 2;
+        color: #015668;
+    }
+
+    /* ADDS NAVBAR BACKGROUND */
+    .navbar {
+        background-color: white !important;
+        height: 48px;
+    }
+
+    .btn{
+        font-size: 0.8em;
+        line-height: 1;  
+        height: 5.25em;
+        width: 5.25em;
+        padding-top: 1.5em;
+        right: 16px!important;
+        bottom: 16px!important;
+        z-index: 2;
+    }
+
+    footer {
+        padding-top: 0.5em;
+    }
+
+    .RC_triangle_bottom_right {
+        border-bottom: 175px solid white;
+        border-left: 175px solid transparent;
+    }
+
+    .RC_social_media_logos {
+        height: 0.75em;
+        /* margin-left: 1.5em; */
+    }
+
+    footer p {
+        font-size: 0.75em;
+    }
+
+}
